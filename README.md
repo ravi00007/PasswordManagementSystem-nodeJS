@@ -12,7 +12,7 @@ You don’t have to memorize all your passwords anymore. You only need to rememb
 ## Tech Stack
 
 
-DataBase:MongoDB Atles
+DataBase:MongoDB Atles </br>
 FrontEnd:EJS 
 Runtime:Node.js
 Server: Heroku
