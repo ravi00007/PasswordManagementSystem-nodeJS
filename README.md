@@ -13,9 +13,9 @@ You don’t have to memorize all your passwords anymore. You only need to rememb
 
 
 DataBase:MongoDB Atles </br>
-FrontEnd:EJS 
-Runtime:Node.js
-Server: Heroku
-Autencation:JWT
-Encryption:Bcrypt.js
-Image Hosting: Firebase
+FrontEnd:EJS </br>
+Runtime:Node.js </br>
+Server: Heroku </br>
+Autencation:JWT </br>
+Encryption:Bcrypt.js </br>
+Image Hosting: Firebase </br>
