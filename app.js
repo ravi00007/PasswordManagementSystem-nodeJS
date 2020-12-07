@@ -8,8 +8,8 @@ var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
 
 var app = express();
-
-mongoose.connect('mongodb+srv://cron:9304@ravi@cluster0.zl5bd.mongodb.net/PMS?retryWrites=true&w=majority', { useNewUrlParser: true, useUnifiedTopology: true , useCreateIndex:true }, (err) => {
+const url = "YOUR mongoDB url"
+mongoose.connect(url, { useNewUrlParser: true, useUnifiedTopology: true , useCreateIndex:true }, (err) => {
     if (!err) {
         console.log("mongodb connection succeeded..")
     }
